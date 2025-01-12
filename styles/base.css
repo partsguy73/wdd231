@@ -1,0 +1,171 @@
+
+
+body {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+header {
+    grid-column: 1/4;
+    background-color: darkslategrey;
+    padding: 10px;
+    text-align: center;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+}
+
+.header-content img {
+    padding-right: 1em;
+    padding-bottom: 10px;
+}
+
+
+header h1 {
+    color: white;
+}
+
+footer {
+    grid-column: 1/4;
+    background-color: darkslategrey;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    max-width: 940px;
+    margin: 0 auto;
+
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.navbar a:hover {
+    background-color: white;
+    color: black;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    justify-content: center;
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.card {
+    border-radius: 15px;
+    border: solid black;
+    overflow: hidden;
+    margin: 0 15px;
+}
+
+#card-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.about-me p {
+    width: 425px;
+}
+
+#profile-img {
+    max-height: 200px;
+}
+
+.place-header {
+    padding: 0 15px;
+    text-align: center;
+}
+
+.place-header>* {
+    margin: 0;
+}
+
+.place-header hr {
+    width: 75%;
+    margin: auto;
+}
+
+.about-place {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+figcaption {
+    text-align: center;
+}
+
+#place-flag {
+    max-height: 100px;
+}
+
+
+.card-header {
+    display: flex;
+    background-color: darkslategrey;
+    color: white;
+    justify-content: center;
+}
+
+.card-content p {
+    max-width: 400px;
+}
+
+.card-header h2 {
+    margin: 0;
+}
+
+#card-2 .card-content {
+    display: flex;
+    align-items: center;
+}
+
+/* #card-3 {
+    
+} */
+
+/* Media Queries */
+@media screen and (min-width: 640px) {
+    .upper-cards {
+        display: grid;
+        grid-template-columns: auto auto 300px;
+    }
+
+    #card-2 {
+        max-width: 300px;
+    }
+}

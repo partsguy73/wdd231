@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Timothy J. Scott">
+    <meta name="description" content="WDD 231 - Web Frontend Development. Timothy J. Scott. .">
+    <title>WDD 231 - Web Frontend Development I</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/toggle_menu.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <img src="images/profile-picture.jpg" alt="Tim Scott Profile Image">
+            <h1>Timothy J. Scott</h1>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#chamber">Chamber</a></li>
+                <li><a href="#githubprofile">GitHub Profile</a></li>
+                <li>
+                    <a href="https://www.linkedin.com/in/tim-scott-48077692">LinkedIn</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="upper-cards">
+            <div class="card" id="card-1">
+                <div class="card-header">
+                    <h2>Course Work</h2>
+                </div>
+                <div class="card-content">
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card" id="card-2">
+                <div class="card-header">
+                    <h2>St George, Utah, USA</h2>
+                </div>
+                <div class="card-content">
+                    <div class="about-place">
+                        <figure>
+                            <img src="images/stgeorge-temple.webp" id="place-temple" alt="St. George Temple" />
+                            <figcaption>St.George Temple</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="lower-card">
+            <div class="card" id="card-3">
+                <div class="card-header">
+                    <h2>Web and Computer Programming Certificate</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Check Your Understanding | Timothy J. Scott | Utah, USA</p>
+        <p>Last Update: <span id="lastModified"></span></p>
+    </footer>
+</body>
+
+</html>
