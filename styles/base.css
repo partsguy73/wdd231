@@ -22,7 +22,7 @@ h1 {
 
 header {
     grid-column: 1/4;
-    background-color: darkslategrey;
+    background-color: var(--primary);
     padding: 10px;
     text-align: center;
     max-width: 940px;
@@ -46,7 +46,7 @@ header h1 {
 
 footer {
     grid-column: 1/4;
-    background-color: darkslategrey;
+    background-color: var(--primary);
     padding: 10px;
     text-align: center;
     color: white;
@@ -164,7 +164,7 @@ figcaption {
 
 .card-header {
     display: flex;
-    background-color: darkslategrey;
+    background-color: var(--primary);
     color: white;
     justify-content: center;
 }
