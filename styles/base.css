@@ -1,4 +1,15 @@
+:root {
+    --primary: #3c3b6e;
+    --secondary: #b22234;
+    --header-text: white;
+    --text: black;
+    --accents: #ffd700;
+    --background: #ffffff;
+}
 
+/* html {
+
+} */
 
 body {
     font-family: "Poppins", serif;
@@ -43,6 +54,9 @@ footer {
     margin: 0 auto;
 
 }
+.navbar {
+    display:none;
+}
 
 .navbar ul {
     list-style-type: none;
@@ -68,6 +82,20 @@ footer {
 .navbar a:hover {
     background-color: white;
     color: black;
+}
+
+.hamburger {
+    display: inline;
+    font-size: xx-large;
+    color: white;
+}
+
+.show {
+    display: flex;
+}
+
+.hidden {
+    display: none;
 }
 
 main {
@@ -154,11 +182,48 @@ figcaption {
     align-items: center;
 }
 
-.course-filter-button {
-    padding: 10px;
-    border: 5px solid black;
-    border-radius: 15px;
+.filter-card {
+    display: flex;
+    justify-content: center;
 }
+
+.course-filter-button {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 150px;
+    margin:15px;
+    text-align: center;
+}
+
+.course-filter-button p {
+    margin: 0;
+}
+
+#courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course-card {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 250px;
+    margin:15px;
+    text-align: center;
+}
+
+.course-card p {
+    margin: 0;
+}
+
+.course-complete {
+    background-color: var(--secondary);
+    color: var(--header-text);
+}
+
 
 /* Media Queries */
 @media screen and (min-width: 640px) {
@@ -170,4 +235,14 @@ figcaption {
     #card-2 {
         max-width: 300px;
     }
+    .hamburger {
+        display: none;
+    }
+    
+    .navbar {
+        display: block;
+    }
+
+
 }
+

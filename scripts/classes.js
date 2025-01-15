@@ -94,6 +94,7 @@ function showFilteredCourses(filter) {
             break;
     }
     showCourses(filteredCourses);
+    setCredits(filteredCourses);
 };
 
 function showCourses(courses) {
@@ -103,13 +104,24 @@ function showCourses(courses) {
         const nameElement = document.createElement('p')
         nameElement.innerText = course.subject + '  ' +course.number;
         const cardElement = document.createElement('div');
-        cardElement.setAttribute("class", "course-card")
         if (course.completed) {
-            cardElement.setAttribute("class", "course-complete")
+            cardElement.setAttribute("class", "course-card course-complete")
+        }
+        else {
+            cardElement.setAttribute("class", "course-card")
         }
         cardElement.appendChild(nameElement);
         coursesDiv.appendChild(cardElement);
     });
+};
+
+function setCredits(courses) {
+    const creditsP = document.getElementById('credits-total');
+    const initialValue = 0;
+    creditsP.innerText = courses.reduce(
+        (accumulator, currentValue) => accumulator + currentValue.credits,
+        initialValue,
+      );
 };
 
 showFilteredCourses('');

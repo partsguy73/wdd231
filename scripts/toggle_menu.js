@@ -10,6 +10,5 @@ function toggleMenu() {
         navigation.classList.add("nav-hidden");
         cheeseburger.innerHTML = '&#9776;';
     }
-    var pageHeader = document.getElementById("page-header");
-    pageHeader.classList.toggle("hidden");
 }
+
