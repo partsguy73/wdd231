@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Timothy J. Scott">
+    <meta name="description" content="WDD 231 - Chamber of Commerce - Washington, Utah. Timothy J. Scott. .">
+    <meta property="og:title" content="Washington City">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/stgeorge-temple.webp">
+    <meta property="og:url" content="https://partsguy73.github.io/wdd231/chamber/directory.html">
+    <title>WDD 231 - Web Frontend Development I</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/toggle_menu.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <div class="icon-image">
+            <img src="images/washington-city.png" alt="Washington City Logo">
+        </div>
+        <div>
+            <h1>Washington City</h1>
+            <p>Chamber of Commerce</p>
+        </div>
+        <div>
+        </div>
+        <nav>
+            <ul>
+                <li href="index.html" class="active">Home</li>
+                <li href="directory.html" class="active">Directory</li>
+                <li href="#join" class="active">Join</li>
+                <li href="#discover" class="active">Discover</li>
+            </ul>
+        </nav>
+        <div id="cheeseburger" class="hamburger" onclick="toggleMenu(this)">&#9776;</div>
+    </header>
+    <main>
+        <section>
+            <picture>
+                <source media="(max-width: 600px)" srcset="images/st_george_small.webp">
+                <source media="(min-width: 601px)" srcset="images/st_george_large.webp">
+                <img src="images/st_george_large.webp" alt="Washington, Utah">
+            </picture>
+        </section>
+        <section>
+            <div>
+                <h2>Home</h2>
+                <div>
+                    <h3>Events</h3>
+                </div>
+                <div>
+                    <h3>Current Weather</h3>
+                    <div id="weather-container"></div>
+                </div>
+                <div>
+                    <h3>Weather Forcast</h3>
+                </div>
+            </div>
+        </section>
+        <section>
+            <!-- Contacts Section -->
+        </section>
+    </main>
+    <footer>
+        <div>
+            <h4>Washington Area Chamber of Commerce</h4>
+            <p>85 E Telegraph St</p>
+            <p>Washington, Ut 84780</p>
+            <p>hello@washareachamber.com</p>
+            <p>(435) 879-3515</p>
+        </div>
+        <div>
+            <!-- Social Media Links -->
+        </div>
+        <div>
+            <p>WDD Class Project</p>
+            <p>Timothy J. Scott</p>
+            <p>&copy; <span id="currentYear"></span> Washington Area Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+        </div>
+    </footer>
+</body>

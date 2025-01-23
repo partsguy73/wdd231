@@ -1,0 +1,137 @@
+:root {
+    --primary: #0a3151; 
+    --secondary: #b22234;
+    --header-text: white;
+    --text: black;
+    --accents: #ffd700;
+    --background: #ffffff;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background);
+    color: var(--text);
+}
+
+header {
+    background-color: var(--primary);
+    color: var(--header-text);
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+header .icon-image img {
+    height: 75px;
+    background-color: var(--background);
+}
+
+header .header-text h1 {
+    margin: 0;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.2rem; /* Increased font size */
+    background-color: var(--secondary);
+    padding: 1rem 0; /* Added top and bottom padding */
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2rem; /* Doubled the gap */
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav ul li {
+    cursor: pointer;
+    color: var(--header-text); /* Changed text color */
+}
+
+header .hamburger {
+    display: none;
+}
+
+main {
+    padding: 1rem;
+}
+
+h2 {
+    text-align: center; /* Center the Member Directory heading */
+}
+
+.menu {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.menu button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: var(--primary);
+    color: var(--header-text);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.menu button:hover {
+    background-color: var(--secondary);
+}
+
+#members-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.member {
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+}
+
+.member img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.member h3 {
+    margin: 0.5rem 0;
+}
+
+.member p {
+    margin: 0.25rem 0;
+}
+
+footer {
+    background-color: var(--primary);
+    color: var(--header-text);
+    padding: 1rem;
+    text-align: center;
+}
+
+footer div {
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    header nav ul {
+        display: none;
+    }
+
+    header .hamburger {
+        display: block;
+    }
+
+    #members-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+

@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Kenton Repair",
+        "address": "1275 E Red Hills Parkway, St George, UT 84770",
+        "phoneNumber": "(435) 862-3970",
+        "websiteURL": "https://kentonrepair.com",
+        "iconFileName": "images/kenton-repair.png",
+        "membershipLevel": 3,
+        "otherInfo": "Automotive & Diesel Pickup Mechanic. We keep your vehicles on the road from oil changes to powertrain replacements and everything in between."
+    },
+    {
+        "name": "4 Seasons Auto Sales",
+        "address": "1865 E Red Hills Parkway, St George, UT 84770",
+        "phoneNumber": "(435) 628-0023",
+        "websiteURL": "https://stgeorgeautloan.com",
+        "iconFileName": "images/4-seasons.png",
+        "membershipLevel": 2,
+        "otherInfo": "We give you the green light."
+    },
+    {
+        "name": "Kuhn's Heating and Air",
+        "address": "170 N 400 East, St George, UT 84770",
+        "phoneNumber": "(628) 313-8886",
+        "websiteURL": "https://stgeorgeair.com",
+        "iconFileName": "images/kuhns.png",
+        "membershipLevel": 1,
+        "otherInfo": "Locally owned heating and air company."
+    },
+    {
+        "name": "Pack It Ship It",
+        "address": "875 W Red Cliffs Dr. Ste. 9, Washington, UT 84780",
+        "phoneNumber": "(435) 574-9997",
+        "websiteURL": "https://packitshipit.com",
+        "iconFileName": "images/pack-it.png",
+        "membershipLevel": 3,
+        "otherInfo": "Pack It Ship It is your one-stop shop full-service Washington neighborhood Pack and Ship store!"
+    },
+    {
+        "name": "Robert Judd Auto Sales",
+        "address": "140 W Telegraph St, Washington, UT 84780",
+        "phoneNumber": "(435) 772-5599",
+        "websiteURL": "https://robertjuddautosales.com",
+        "iconFileName": "images/robert-judd.png",
+        "membershipLevel": 2,
+        "otherInfo": "Hometown sales and service."
+    },
+    {
+        "name": "Walker Plumbing Heating & Air",
+        "address": "1794 Nuteam Cir, Washington, UT 84780",
+        "phoneNumber": "(435) 669-3870",
+        "websiteURL": "https://mystgeorgeplumber.com",
+        "iconFileName": "images/walker.png",
+        "membershipLevel": 1,
+        "otherInfo": "Serving southern Utah for 20 years."
+    },
+    {
+        "name": "Rowley's Red Barn",
+        "address": "471 W Telegraph St, Washington, UT 84780",
+        "phoneNumber": "(435) 652-6611",
+        "websiteURL": "https://rowleysredbarn.com",
+        "iconFileName": "images/rowleys.png",
+        "membershipLevel": 2,
+        "otherInfo": "Family owned and operated since 1913."
+    },
+    {
+        "name": "Zion Harley-Davidson",
+        "address": "2345 N Coral Canyon Blvd, Washington, UT 84780",
+        "phoneNumber": "(435) 673-5100",
+        "websiteURL": "https://zionhd.com",
+        "iconFileName": "images/zionhd.png",
+        "membershipLevel": 3,
+        "otherInfo": "Southern Utah's only authorized Harley-Davidson dealership."
+    }
+]
+
