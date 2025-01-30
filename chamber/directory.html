@@ -33,7 +33,7 @@
         </div>
         <div id="cheeseburger" class="hamburger" onclick="toggleMenu(this)">&#9776;</div>
     </header>
-    <nav class="main-nav">
+    <nav class="main-nav" id="navigation">
         <ul>
             <li href="index.html" class="active">Home</li>
             <li href="directory.html" class="active">Directory</li>
@@ -44,7 +44,8 @@
     <main>
         <body>
             <h2>Member Directory</h2>
-            <div class="menu">
+            
+            <div class="member-menu">
                 <button id="grid">⏹️ Grid</button>
                 <button id="list">📄 List</button>
             </div>
@@ -54,17 +55,22 @@
         </body>
     </main>
     <footer>
-        <div>
+        <div class="contact">
             <h4>Washington Area Chamber of Commerce</h4>
             <p>85 E Telegraph St</p>
             <p>Washington, Ut 84780</p>
             <p>hello@washareachamber.com</p>
             <p>(435) 879-3515</p>
         </div>
-        <div>
-            <!-- Social Media Links -->
+        <div class="social">
+            <a href="https://www.facebook.com/washingtonutchamber" target="_blank">
+                <img class="social-media-img" src="images/facebook_logo.png" alt="Facebook icon">
+            </a>
+            <a href="https://www.instagram.com/washingtonutchamber" target="_blank">
+                <img class="social-media-img" src="images/instagram.png" alt="Instagram icon">
+            </a>
         </div>
-        <div>
+        <div class="legal">
             <p>WDD Class Project</p>
             <p>Timothy J. Scott</p>
             <p>&copy; <span id="currentYear"></span> Washington Area Chamber of Commerce</p>

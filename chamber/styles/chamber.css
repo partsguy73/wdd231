@@ -11,6 +11,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--background);
     color: var(--text);
+    overflow-wrap: break-word; /* Ensure text fits into its box */
 }
 
 header {
@@ -19,11 +20,17 @@ header {
     padding: 1rem;
     display: flex;
     align-items: center;
+    justify-content: space-between; /* Adjusted to space elements */
 }
 
 header .icon-image img {
     height: 75px;
     background-color: var(--background);
+}
+
+header .header-text {
+    flex: 1;
+    text-align: center; /* Center the text */
 }
 
 header .header-text h1 {
@@ -88,6 +95,10 @@ h2 {
     gap: 1rem;
 }
 
+#members-container.list-layout {
+    display: block;
+}
+
 .member {
     border: 1px solid var(--primary);
     border-radius: 5px;
@@ -110,10 +121,24 @@ h2 {
 }
 
 footer {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
     background-color: var(--primary);
     color: var(--header-text);
     padding: 1rem;
     text-align: center;
+}
+
+footer .contact {
+    text-align: left; /* Left-align contact */
+}
+
+footer .social {
+    text-align: center; /* Center-align social */
+}
+
+footer .legal {
+    text-align: right; /* Right-align legal */
 }
 
 footer div {
@@ -131,6 +156,35 @@ footer div {
 
     #members-container {
         grid-template-columns: 1fr;
+    }
+
+    .header-text {
+        display: none;
+    }
+
+    footer {
+        display: block; /* Display footer as block on smaller screens */
+    }
+
+    footer .contact, footer .social, footer .legal {
+        text-align: center; /* Center-align all footer sections on smaller screens */
+    }
+
+    .main-nav {
+        display: none;
+    }
+    
+    .nav-show {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-show ul {
+        display: block;
+    }
+
+    .nav-show ul li {
+        margin: 1rem;
     }
 }
 
