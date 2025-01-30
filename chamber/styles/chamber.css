@@ -145,6 +145,14 @@ footer div {
     margin-bottom: 1rem;
 }
 
+.directory-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Center all elements */
+    gap: 1rem;
+}
+
 @media (max-width: 768px) {
     header nav ul {
         display: none;
@@ -152,6 +160,13 @@ footer div {
 
     header .hamburger {
         display: block;
+    }
+
+    .directory-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
     }
 
     #members-container {
