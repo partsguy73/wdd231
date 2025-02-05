@@ -1,4 +1,4 @@
-const apiKey = 'YOUR_API_KEY';
+const apiKey = '40658d590d1d1d7996c8753778fbe50c';
 const weatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=37.11412168326838&lon=-113.53615207326636&appid=${apiKey}&units=imperial`;
 const forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=37.11412168326838&lon=-113.53615207326636&appid=${apiKey}&units=imperial`;
 
@@ -23,16 +23,23 @@ async function getForecast() {
 }
 
 function displayWeather(data) {
-    const weatherElement = document.getElementById('weather');
+    const weatherElement = document.getElementById('weather-container');
+    const iconUrl = `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
     weatherElement.innerHTML = `
         <h2>Current Weather</h2>
-        <p>Temperature: ${data.main.temp}°F</p>
-        <p>Weather: ${data.weather[0].description}</p>
+        <img src="${iconUrl}" alt="Weather icon">
+        <p>${data.main.temp}°F</p>
+        <p>${data.weather[0].description}</p>
+        <p>High: ${data.main.temp_max}°F</p>
+        <p>Low: ${data.main.temp_min}°F</p>
+        <p>Humidity: ${data.main.humidity}%</p>
+        <p>Sunrise: ${data.visibility} am</p>
+        <p>Sunset: ${data.clouds.all} pm</p>
     `;
 }
 
 function displayForecast(data) {
-    const forecastElement = document.getElementById('forecast');
+    const forecastElement = document.getElementById('forecast-container');
     forecastElement.innerHTML = '<h2>5-Day Forecast</h2>';
     data.list.forEach(item => {
         forecastElement.innerHTML += `

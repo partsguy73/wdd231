@@ -17,9 +17,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/chamber.css">
+    <script src="scripts/directory.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/toggle_menu.js" defer></script>
-    <script src="scripts/weather.js" defer></script>
 </head>
 
 <body>
@@ -41,34 +41,6 @@
             <li><a href="discover.html" class="active">Discover</a></li>
         </ul>
     </nav>
-    <main>
-        <section>
-            <picture>
-                <source media="(max-width: 600px)" srcset="images/st_george_small.webp">
-                <source media="(min-width: 601px)" srcset="images/st_george_large.webp">
-                <img src="images/st_george_large.webp" alt="Washington, Utah">
-            </picture>
-        </section>
-        <section>
-            <div>
-                <h2>Home</h2>
-                <div>
-                    <h3>Events</h3>
-                </div>
-                <div>
-                    <h3>Current Weather</h3>
-                    <div id="weather-container"></div>
-                </div>
-                <div>
-                    <h3>Weather Forecast</h3>
-                    <div id="forecast-container"></div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <!-- Contacts Section -->
-        </section>
-    </main>
     <footer>
         <div class="contact">
             <h4>Washington Area Chamber of Commerce</h4>
@@ -92,5 +64,3 @@
             <p>Last Modification: <span id="lastModified"></span></p>
         </div>
     </footer>
-</body>
-</html>
