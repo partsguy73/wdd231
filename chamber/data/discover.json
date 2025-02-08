@@ -1,0 +1,52 @@
+{
+    "places": [
+      {
+        "name": "Snow Canyon State Park",
+        "address": "1002 Snow Canyon Dr, Ivins, UT 84738",
+        "description": "Known for its stunning red and white sandstone cliffs, lava flows, and unique formations. Perfect for hiking, biking, and exploring.",
+        "image": "images/snow-canyon.jpg"
+      },
+      {
+        "name": "Red Cliffs National Conservation Area",
+        "address": "345 E Riverside Dr, St George, UT 84790",
+        "description": "Offers a variety of outdoor activities including hiking, horseback riding, and wildlife viewing. Beautiful desert landscapes.",
+        "image": "images/red-cliffs.jpg"
+      },
+      {
+        "name": "Pioneer Park",
+        "address": "375 Red Hills Pkwy, St. George, UT 84770",
+        "description": "A popular spot for picnics, sports, and family gatherings. Features playgrounds, sports fields, and walking paths.",
+        "image": "images/pioneer-park.jpg"
+      },
+      {
+        "name": "Red Hills Desert Garden",
+        "address": "375 E Red Hills Pkwy, Saint George, UT 84770",
+        "description": "A desert botanical garden showcasing a variety of cacti and other desert plants. Great for a peaceful stroll.",
+        "image": "images/red-hills-garden.jpg"
+      },
+      {
+        "name": "Sand Hollow State Park",
+        "address": "2375 E Riverside Dr, Hurricane, UT 84737",
+        "description": "Ideal for boating, swimming, and off-roading. The park also offers camping facilities and beautiful sandy beaches.",
+        "image": "images/sand-hollow.jpg"
+      },
+      {
+        "name": "Gunlock State Park",
+        "address": "200 E Gunlock Rd, Leeds, UT 84746",
+        "description": "A serene spot for swimming, fishing, and boating. The reservoir is surrounded by scenic desert landscapes.",
+        "image": "images/gunlock.jpg"
+      },
+      {
+        "name": "Cedar Breaks National Monument",
+        "address": "8474 UT-14, Cedar City, UT 84721",
+        "description": "Known for its breathtaking amphitheater of eroded rock formations. Perfect for hiking and enjoying panoramic views.",
+        "image": "images/cedar-breaks.jpg"
+      },
+      {
+        "name": "Glitter Mountain",
+        "address": "Littlefield, AZ (13 miles south of St. George, just across the Arizona border)",
+        "description": "A small hill with exposed selenite crystal veins. Visitors can collect small crystals and enjoy the unique landscape.",
+        "image": "images/glitter-mountain.jpg"
+      }
+    ]
+  }

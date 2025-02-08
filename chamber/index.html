@@ -20,6 +20,7 @@
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/toggle_menu.js" defer></script>
     <script src="scripts/weather.js" defer></script>
+    <script src="scripts/index-members.js" defer></script>
 </head>
 
 <body>
@@ -42,18 +43,21 @@
         </ul>
     </nav>
     <main>
-        <section>
-            <picture>
-                <source media="(max-width: 600px)" srcset="images/st_george_small.webp">
-                <source media="(min-width: 601px)" srcset="images/st_george_large.webp">
-                <img src="images/st_george_large.webp" alt="Washington, Utah">
-            </picture>
-        </section>
-        <section>
-            <div>
-                <h2>Home</h2>
+        <div class="hero-image">
+            <div class="hero-text">
+                <button>Join</button>
+            </div>
+        </div>
+        <div class="home-section">
+            <h2 class="home-header">Home</h2>
+            <div class="home-content">
                 <div>
                     <h3>Events</h3>
+                    <ul>
+                        <li>Feb 5 - Southern Utah Latino Business Alliance Meeting</li>
+                        <li>Feb 11 - In Business Lunch</li>
+                        <li>Feb 18 - Chamber Networking Lunch</li>
+                    </ul>
                 </div>
                 <div>
                     <h3>Current Weather</h3>
@@ -64,9 +68,11 @@
                     <div id="forecast-container"></div>
                 </div>
             </div>
-        </section>
-        <section>
-            <!-- Contacts Section -->
+        </div>
+        <section class="members-section">
+            <div id="members-container">
+
+            </div>
         </section>
     </main>
     <footer>

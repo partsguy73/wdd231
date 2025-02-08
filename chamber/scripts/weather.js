@@ -25,28 +25,28 @@ async function getForecast() {
 function displayWeather(data) {
     const weatherElement = document.getElementById('weather-container');
     const iconUrl = `http://openweathermap.org/img/wn/${data.weather[0].icon}.png`;
+    const sunrise = new Date(data.sys.sunrise * 1000).toLocaleTimeString();
+    const sunset = new Date(data.sys.sunset * 1000).toLocaleTimeString();
     weatherElement.innerHTML = `
-        <h2>Current Weather</h2>
         <img src="${iconUrl}" alt="Weather icon">
-        <p>${data.main.temp}°F</p>
-        <p>${data.weather[0].description}</p>
+        <p>Temperature: ${data.main.temp}°F</p>
+        <p>Weather: ${data.weather[0].description}</p>
         <p>High: ${data.main.temp_max}°F</p>
         <p>Low: ${data.main.temp_min}°F</p>
         <p>Humidity: ${data.main.humidity}%</p>
-        <p>Sunrise: ${data.visibility} am</p>
-        <p>Sunset: ${data.clouds.all} pm</p>
+        <p>Sunrise: ${sunrise}</p>
+        <p>Sunset: ${sunset}</p>
     `;
 }
 
 function displayForecast(data) {
     const forecastElement = document.getElementById('forecast-container');
-    forecastElement.innerHTML = '<h2>5-Day Forecast</h2>';
-    data.list.forEach(item => {
+    const forecastList = data.list.filter((item, index) => index % 8 === 0).slice(0, 3);
+    forecastList.forEach(item => {
         forecastElement.innerHTML += `
             <div>
                 <p>Date: ${item.dt_txt}</p>
-                <p>Temperature: ${item.main.temp}°F</p>
-                <p>Weather: ${item.weather[0].description}</p>
+                <p>Temp: ${item.main.temp}°F</p>
             </div>
         `;
     });

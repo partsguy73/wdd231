@@ -41,6 +41,70 @@
             <li><a href="discover.html" class="active">Discover</a></li>
         </ul>
     </nav>
+    <main>
+        <form action="/submit" method="post">
+            <fieldset>
+                <legend>Join the Chamber of Commerce</legend>
+                <label for="companyName">Company Name:</label>
+                <input type="text" id="companyName" name="companyName" required>
+                
+                <label for="contactName">Contact Name:</label>
+                <input type="text" id="contactName" name="contactName" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address" required>
+                
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" required>
+                
+                <label for="state">State:</label>
+                <input type="text" id="state" name="state" required>
+                
+                <label for="zip">Zip Code:</label>
+                <input type="text" id="zip" name="zip" required>
+                
+                <label for="website">Website:</label>
+                <input type="url" id="website" name="website">
+                
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4" required></textarea>
+                
+                <label for="membershipLevel">Membership Level:</label>
+                <select id="membershipLevel" name="membershipLevel" required>
+                    <option value="gold">Gold</option>
+                    <option value="silver">Silver</option>
+                    <option value="bronze">Bronze</option>
+                    <option value="np">Not-for-Profit</option>
+                </select>
+                
+                <button type="submit">Join Now</button>
+            </fieldset>
+        </form>
+        <div class="membership-levels">
+            <div class="card">
+                <h3>Gold Membership</h3>
+                <p>Includes premium listing in the directory, access to exclusive events, and priority support.</p>
+            </div>
+            <div class="card">
+                <h3>Silver Membership</h3>
+                <p>Includes standard listing in the directory, access to most events, and regular support.</p>
+            </div>
+            <div class="card">
+                <h3>Bronze Membership</h3>
+                <p>Includes basic listing in the directory and access to some events.</p>
+            </div>
+            <div class="card">
+                <h3>Not-for-Profit Membership</h3>
+                <p>Includes basic listing in the directory and access to some events at a discounted rate.</p>
+            </div>
+        </div>
+    </main>
     <footer>
         <div class="contact">
             <h4>Washington Area Chamber of Commerce</h4>
@@ -64,3 +128,6 @@
             <p>Last Modification: <span id="lastModified"></span></p>
         </div>
     </footer>
+</body>
+
+</html>

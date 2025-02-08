@@ -6,7 +6,8 @@
         "websiteURL": "https://kentonrepair.com",
         "iconFileName": "images/kenton-repair.png",
         "membershipLevel": 3,
-        "otherInfo": "Automotive & Diesel Pickup Mechanic. We keep your vehicles on the road from oil changes to powertrain replacements and everything in between."
+        "otherInfo": "Automotive & Diesel Pickup Mechanic. We keep your vehicles on the road from oil changes to powertrain replacements and everything in between.",
+        "email": "info@kentonrepair.com"
     },
     {
         "name": "4 Seasons Auto Sales",
@@ -15,7 +16,8 @@
         "websiteURL": "https://stgeorgeautloan.com",
         "iconFileName": "images/4-seasons.png",
         "membershipLevel": 2,
-        "otherInfo": "We give you the green light."
+        "otherInfo": "We give you the green light.",
+        "email": "contact@4seasonsautosales.com"
     },
     {
         "name": "Kuhn's Heating and Air",
@@ -24,7 +26,8 @@
         "websiteURL": "https://stgeorgeair.com",
         "iconFileName": "images/kuhns.png",
         "membershipLevel": 1,
-        "otherInfo": "Locally owned heating and air company."
+        "otherInfo": "Locally owned heating and air company.",
+        "email": "support@kuhnsheatingandair.com"
     },
     {
         "name": "Pack It Ship It",
@@ -33,7 +36,8 @@
         "websiteURL": "https://packitshipit.com",
         "iconFileName": "images/pack-it.png",
         "membershipLevel": 3,
-        "otherInfo": "Pack It Ship It is your one-stop shop full-service Washington neighborhood Pack and Ship store!"
+        "otherInfo": "Pack It Ship It is your one-stop shop full-service Washington neighborhood Pack and Ship store!",
+        "email": "service@packitshipit.com"
     },
     {
         "name": "Robert Judd Auto Sales",
@@ -42,7 +46,8 @@
         "websiteURL": "https://robertjuddautosales.com",
         "iconFileName": "images/robert-judd.png",
         "membershipLevel": 2,
-        "otherInfo": "Hometown sales and service."
+        "otherInfo": "Hometown sales and service.",
+        "email": "sales@robertjuddautosales.com"
     },
     {
         "name": "Walker Plumbing Heating & Air",
@@ -51,7 +56,8 @@
         "websiteURL": "https://mystgeorgeplumber.com",
         "iconFileName": "images/walker.png",
         "membershipLevel": 1,
-        "otherInfo": "Serving southern Utah for 20 years."
+        "otherInfo": "Serving southern Utah for 20 years.",
+        "email": "info@walkerplumbing.com"
     },
     {
         "name": "Rowley's Red Barn",
@@ -60,7 +66,8 @@
         "websiteURL": "https://rowleysredbarn.com",
         "iconFileName": "images/rowleys.png",
         "membershipLevel": 2,
-        "otherInfo": "Family owned and operated since 1913."
+        "otherInfo": "Family owned and operated since 1913.",
+        "email": "contact@rowleysredbarn.com"
     },
     {
         "name": "Zion Harley-Davidson",
@@ -69,7 +76,8 @@
         "websiteURL": "https://zionhd.com",
         "iconFileName": "images/zionhd.png",
         "membershipLevel": 3,
-        "otherInfo": "Southern Utah's only authorized Harley-Davidson dealership."
+        "otherInfo": "Southern Utah's only authorized Harley-Davidson dealership.",
+        "email": "info@zionhd.com"
     }
 ]
 

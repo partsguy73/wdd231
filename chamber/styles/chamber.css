@@ -11,7 +11,8 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: var(--background);
     color: var(--text);
-    overflow-wrap: break-word; /* Ensure text fits into its box */
+    overflow-wrap: break-word;
+    height: 100%; /* Ensure text fits into its box */
 }
 
 header {
@@ -72,6 +73,8 @@ header .hamburger {
 
 main {
     padding: 1rem;
+    max-width: 1200px; /* Set maximum width */
+    margin:0 auto;
 }
 
 h2 {
@@ -156,11 +159,48 @@ footer div {
 }
 
 .directory-container {
-    display: flex;
+    display: flex;    
     flex-direction: column;
     justify-content: center;
     align-items: center; /* Center all elements */
     gap: 1rem;
+}
+
+.hero-image {
+    background-image: url("/chamber/images/st_george_large.png");
+    height: 498px;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 90%;
+    left: 90%;
+    transform: translate(-50%, -50%);
+    color: var(--header-text);
+}
+
+.hero-text button {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: var(--background);
+    color: var(--text);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.home-header {
+    text-align: left;
+}
+
+.home-content {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
 }
 
 @media (max-width: 768px) {
@@ -210,6 +250,10 @@ footer div {
 
     .nav-show ul li {
         margin: 1rem;
+    }
+
+    .hero-image {
+        background-image: url("/chamber/images/red_cliffs_temple.png")
     }
 }
 
