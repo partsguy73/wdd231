@@ -169,7 +169,7 @@ footer div {
 }
 
 .hero-image {
-    background-image: url("/chamber/images/st_george_large.png");
+    background-image: url("/wdd231/chamber/images/st_george_large.png");
     height: 498px;    
     background-position: center;
     background-repeat: no-repeat;
@@ -280,7 +280,7 @@ footer div {
     }
 
     .hero-image {
-        background-image: url("/chamber/images/red_cliffs_temple.png")
+        background-image: url("/wdd231/chamber/images/red_cliffs_temple.png")
     }
 
     .home-content {
