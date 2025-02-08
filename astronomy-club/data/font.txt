@@ -1,0 +1,5 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+
+https://coolors.co/81705c-76848f-9c8d7a-7c7c7c-020814
