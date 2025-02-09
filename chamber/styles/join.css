@@ -1,0 +1,143 @@
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 1em;
+    background: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 1em;
+}
+
+legend {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 0.7em 1.5em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.membership-levels {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+@keyframes cardAnimation {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card {
+    flex: 1 1 calc(50% - 1em);
+    padding: 1em;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    animation-name: cardAnimation;
+    animation-duration: 4s;
+
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+.join-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.join-container > div {
+    flex: 1;
+    margin: 0 1em;
+}
+
+.membership-info-modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+@media (max-width: 600px) {
+    .membership-levels {
+        flex-direction: column;
+    }
+
+    .card {
+        flex: 1 1 100%;
+    }
+
+    .join-container {
+        flex-direction: column;
+    }
+
+    .join-container > div {
+        margin: 0;
+    }
+}
