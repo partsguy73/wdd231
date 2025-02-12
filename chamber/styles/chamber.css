@@ -100,6 +100,20 @@ h2 {
     background-color: var(--secondary);
 }
 
+.learn-more-btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    background-color: var(--secondary);
+    color: var(--header-text);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 1rem;
+}
+
+.learn-more-btn:hover {
+    background-color: var(--primary);
+}
+
 #index-members-container {
     display: flex;
     flex-direction: row;
@@ -240,6 +254,28 @@ footer div {
 
 .list-item {
     margin: 1em;
+}
+
+.places-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.place-card {
+    border: 1px solid var(--primary);
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: center;
+    width: 250px;
+}
+
+.place-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
 }
 
 @media (max-width: 768px) {
