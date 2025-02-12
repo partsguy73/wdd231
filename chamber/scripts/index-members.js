@@ -12,7 +12,7 @@ function getRandomMembers(members, count) {
 }
 
 function displayIndexMembers(members) {
-    const container = document.getElementById('members-container');
+    const container = document.getElementById('index-members-container');
     container.innerHTML = '';
 
     members.forEach(member => {
