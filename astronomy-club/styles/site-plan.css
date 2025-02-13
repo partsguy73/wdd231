@@ -1,8 +1,55 @@
 :root {
     --primary: #81705c; /* Coyote */
-    --secondary: #b22234;
-    --header-text: white;
-    --text: black;
-    --accents: #ffd700;
-    --background: #ffffff;
+    --secondary: #76848f;
+    --accent: #9c8d7a;
+    --primary-background: #020814;
+    --secondary-background: #7c7c7c;
+    --text: white;
 }
+
+* {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--text);
+    color: var(--primary-background);
+}
+
+table.colors {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table.colors th, table.colors td {
+    border: 1px solid ;
+    padding: 8px;
+}
+
+table.colors th {
+    background-color: var(--text);
+    text-align: center;
+}
+
+.primary {
+    background-color: var(--primary);
+    color: var(--text);
+}
+
+.secondary {
+    background-color: var(--secondary);
+    color: var(--text);
+}
+
+.accent {
+    background-color: var(--accent);
+    color: var(--text);
+}
+
+.primary-background {
+    background-color: var(--primary-background);
+    color: var(--text);
+}
+
+.secondary-background {
+    background-color: var(--secondary-background);
+    color: var(--text);
+}
+
