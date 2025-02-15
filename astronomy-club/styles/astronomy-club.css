@@ -7,10 +7,9 @@
     --text: white;
 }
 
-* {
+body {
     font-family: "Poppins", sans-serif;
 }
-
 
 .welcome-banner {
     background-color: var(--primary);
