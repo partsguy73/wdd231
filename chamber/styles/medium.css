@@ -1,0 +1,16 @@
+@media only screen and (min-width: 38rem) {
+    .place-card {    
+        grid-template-areas:
+            "image name"
+            "image description"
+            "image address"
+            "button button";
+    }
+    .place-card img {
+        width: 300px;
+        transition: transform 0.3s ease-in-out;
+    }
+    .place-card img:hover {
+        transform: scale(1.1) rotate(5deg);
+    }
+}

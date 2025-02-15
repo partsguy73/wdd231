@@ -1,0 +1,6 @@
+@media only screen and (min-width: 64rem) {
+    .places-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}

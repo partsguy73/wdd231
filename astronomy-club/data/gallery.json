@@ -1,0 +1,104 @@
+{
+    "images": [
+        {
+            "name": "Pillars of Creation",
+            "imageURL": "https://via.placeholder.com/300x200?text=Pillars+of+Creation"
+        },
+        {
+            "name": "Hubble Ultra Deep Field",
+            "imageURL": "https://via.placeholder.com/300x200?text=Hubble+Ultra+Deep+Field"
+        },
+        {
+            "name": "Andromeda Galaxy",
+            "imageURL": "https://via.placeholder.com/300x200?text=Andromeda+Galaxy"
+        },
+        {
+            "name": "Crab Nebula",
+            "imageURL": "https://via.placeholder.com/300x200?text=Crab+Nebula"
+        },
+        {
+            "name": "Helix Nebula",
+            "imageURL": "https://via.placeholder.com/300x200?text=Helix+Nebula"
+        },
+        {
+            "name": "Whirlpool Galaxy",
+            "imageURL": "https://via.placeholder.com/300x200?text=Whirlpool+Galaxy"
+        },
+        {
+            "name": "Sombrero Galaxy",
+            "imageURL": "https://via.placeholder.com/300x200?text=Sombrero+Galaxy"
+        },
+        {
+            "name": "Pleiades Star Cluster",
+            "imageURL": "https://via.placeholder.com/300x200?text=Pleiades+Star+Cluster"
+        },
+        {
+            "name": "Orion Nebula",
+            "imageURL": "https://via.placeholder.com/300x200?text=Orion+Nebula"
+        },
+        {
+            "name": "Carina Nebula",
+            "imageURL": "https://via.placeholder.com/300x200?text=Carina+Nebula"
+        },
+        {
+            "name": "Eagle Nebula",
+            "imageURL": "https://via.placeholder.com/300x200?text=Eagle+Nebula"
+        },
+        {
+            "name": "Galaxy NGC 1300",
+            "imageURL": "https://via.placeholder.com/300x200?text=Galaxy+NGC+1300"
+        },
+        {
+            "name": "Horsehead Nebula",
+            "imageURL": "https://via.placeholder.com/300x200?text=Horsehead+Nebula"
+        },
+        {
+            "name": "Mars Surface",
+            "imageURL": "https://via.placeholder.com/300x200?text=Mars+Surface"
+        },
+        {
+            "name": "Saturn's Rings",
+            "imageURL": "https://via.placeholder.com/300x200?text=Saturn's+Rings"
+        },
+        {
+            "name": "Jupiter and Europa",
+            "imageURL": "https://via.placeholder.com/300x200?text=Jupiter+and+Europa"
+        },
+        {
+            "name": "NGC 1672",
+            "imageURL": "https://via.placeholder.com/300x200?text=NGC+1672"
+        },
+        {
+            "name": "Messier 82",
+            "imageURL": "https://via.placeholder.com/300x200?text=Messier+82"
+        },
+        {
+            "name": "NGC 6302 (Butterfly Nebula)",
+            "imageURL": "https://via.placeholder.com/300x200?text=NGC+6302+(Butterfly+Nebula)"
+        },
+        {
+            "name": "NGC 6217",
+            "imageURL": "https://via.placeholder.com/300x200?text=NGC+6217"
+        },
+        {
+            "name": "Stephan's Quintet",
+            "imageURL": "https://via.placeholder.com/300x200?text=Stephan's+Quintet"
+        },
+        {
+            "name": "NGC 1275 (M87)",
+            "imageURL": "https://via.placeholder.com/300x200?text=NGC+1275+(M87)"
+        },
+        {
+            "name": "NGC 5866",
+            "imageURL": "https://via.placeholder.com/300x200?text=NGC+5866"
+        },
+        {
+            "name": "Messier 106",
+            "imageURL": "https://via.placeholder.com/300x200?text=Messier+106"
+        },
+        {
+            "name": "NGC 1300",
+            "imageURL": "https://via.placeholder.com/300x200?text=NGC+1300"
+        }
+    ]
+}

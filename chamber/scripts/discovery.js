@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
             data.places.forEach(place => {
                 const placeCard = document.createElement('div');
                 placeCard.classList.add('place-card');
-                
+
                 placeCard.innerHTML = `
                     <img src="${place.image}" alt="${place.name}">
                     <h2>${place.name}</h2>
@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <p>${place.description}</p>
                     <button class="learn-more-btn">Learn More</button>
                 `;
-                
+
                 placesContainer.appendChild(placeCard);
             });
         })

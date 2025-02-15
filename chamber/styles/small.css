@@ -1,0 +1,40 @@
+.place-card {
+    margin: 1rem 8px;
+    border: 2px solid var(--text);
+    border-radius: 8px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas:
+        "name"
+        "image"
+        "address"
+        "description"
+        "button";
+}
+
+.place-card h2 {
+    margin: 1rem 10px;
+    grid-area: name;
+}
+
+.place-card img {
+    width: 100%;
+    grid-area: image
+}
+
+.place-card address {
+    margin: 1rem 10px;
+    grid-area: address;
+}
+
+.place-card p {
+    margin: 1rem 10px;
+    grid-area: description;
+}
+
+.place-card button {
+    grid-area: button;
+  
+}
+
