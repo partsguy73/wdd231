@@ -3,3 +3,15 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
 
 https://coolors.co/81705c-76848f-9c8d7a-7c7c7c-020814
+
+<!DOCTYPE html>
+<html lang="en">
+    <p> New &#127761;</p>
+    <p> Waxing Crescent &#127762;</p>
+    <p> First Quarter &#127763;</p>
+    <p> Waxing Gibbous &#127764;</p>
+    <p> Full Moon &#127765;</p>
+    <p> Waning Gibbous &#127766;</p>
+    <p> Last Quarter &#127767;</p>
+    <p> Waning Crescent &#127768;</p>
+</html>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Timothy J. Scott">
+    <meta name="description" content="WDD 231 - Southern Utah Astronomy Club. Timothy J. Scott. .">
+    <meta property="og:title" content="Southern Utah Youth Astronomy Club">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://partsguy73.github.io/wdd231/astronomy-club/images/suyac-hero.webp">
+    <meta property="og:url" content="https://partsguy73.github.io/wdd231/astronomy-club/index.html">
+    <title>Southern Utah Youth Astronomy Club</title>
+    <link rel="icon" type="image/x-icon" href="images/suyac.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="styles/astronomy-club.css">
+    <script src="scripts/night-weather.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/toggle_menu.js" defer></script>
+    <script src="scripts/visit.js" defer></script>
+</head>
+
+<body>
+    <header class="full-width">
+        <div class="nominal-width">
+            <div class="welcome-banner">
+                <p>Southern Utah Youth Astronomy Club - <span class="personalized-message"></span></p>
+            </div>
+            <div class="header-container">
+                <img src="images/suyac-logo.png" alt="Southern Utah Youth Astronomy Club Logo">
+                <nav>
+                    <div class="nav-container">
+                        <ul id="menu">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="events.html">Events</a></li>
+                            <li><a href="join-us.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div id="cheeseburger" class="hamburger" onclick="toggleMenu(this)">&#9776;</div>
+            </div>  
+        </div>
+    </header>
+    <main>
+        <div>
+            <img src="images/suyac-hero.webp" alt="Southern Utah Youth Astronomy Club Hero Image">
+            <div>
+                <button>Join</button>
+            </div>
+        </div>
+        <div>
+            <h2>Welcome</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste excepturi nemo fugiat rerum laudantium?
+                Quaerat eligendi hic est maiores nemo suscipit! Quis exercitationem officiis, nemo sapiente dolor
+                aliquam numquam similique.</p>
+        </div>
+        <div>
+            <h2>Events</h2>
+            <div class="events">
+                <div class="upcoming-event">
+                    <img src="images/telescope.webp" alt="Telescope">
+                    <h3>Stargazing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste excepturi nemo fugiat rerum
+                        laudantium? Quaerat eligendi hic est maiores nemo suscipit! Quis exercitationem officiis, nemo
+                        sapiente dolor aliquam numquam similique.</p>
+                </div>
+                <div class="event">
+                    <img src="images/telescope.webp" alt="Telescope">
+                    <h3>Stargazing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste excepturi nemo fugiat rerum
+                        laudantium? Quaerat eligendi hic est maiores nemo suscipit! Quis exercitationem officiis, nemo
+                        sapiente dolor aliquam numquam similique.</p>
+                </div>
+                <div class="event">
+                    <img src="images/telescope.webp" alt="Telescope">
+                    <h3>Stargazing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste excepturi nemo fugiat rerum
+                        laudantium? Quaerat eligendi hic est maiores nemo suscipit! Quis exercitationem officiis, nemo
+                        sapiente dolor aliquam numquam similique.</p>
+                </div>
+            </div>
+            <div class="night-weather" id="night-weather"></div>
+        </div>
+        <div>
+            <h2>Explore the Universe</h2>
+            <div class="gallery-slideshow"></div>
+        </div>
+    </main>
+    <footer class="full-width">
+        <div class="contact">
+            <h4>Southern Utah Youth Astronomy Club</h4>
+            <p>PO Box 3.14</p>
+            <p>Washington, Ut 84780</p>
+            <p>hello@southerutahyouthastronomyclub.org</p>
+            <p>(435) 123-4567</p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com/washingtonutchamber" target="_blank">
+                <img class="social-media-img" src="images/facebook_logo.png" alt="Facebook icon">
+            </a>
+            <a href="https://www.instagram.com/washingtonutchamber" target="_blank">
+                <img class="social-media-img" src="images/instagram.png" alt="Instagram icon">
+            </a>
+        </div>
+        <div class="legal">
+            <p>WDD231 Final Project</p>
+            <p>Timothy J. Scott</p>
+            <p>&copy; <span id="currentYear"></span> Washington Area Chamber of Commerce</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+            <a href="site-plan.html">Site Plan</a>
+        </div>
+    </footer>
+
+</body>
+</html>

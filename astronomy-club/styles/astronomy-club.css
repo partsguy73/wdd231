@@ -1,0 +1,47 @@
+:root {
+    --primary: #81705c; /* Coyote */
+    --secondary: #76848f;
+    --accent: #9c8d7a;
+    --primary-background: #020814;
+    --secondary-background: #7c7c7c;
+    --text: white;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.welcome-banner {
+    background-color: var(--primary);
+    color: var(--text);
+    text-align: center;
+}
+ 
+.welcome-banner p {
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.header-container {
+    background-color: var(--secondary);
+    color: var(--text);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.nav-container {
+   width: 100%;
+}
+
+.nav-container ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0;
+    margin: 0;
+}
