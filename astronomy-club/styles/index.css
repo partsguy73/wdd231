@@ -1,0 +1,20 @@
+.hero {
+    /* background: url('/wdd231/astronomy-club/images/suyac-hero.webp') no-repeat center center/cover; */
+    background-image: url('../images/suyac-hero.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 40%;
+    height: 50vh;
+}
+
+.join-button {
+    margin: 4rem;
+    transition: transform 0.2s;
+}
+
+.join-button:hover {
+    font-size: 150%;
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
