@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 placeCard.classList.add('place-card');
 
                 placeCard.innerHTML = `
-                    <img src="${place.image}" alt="${place.name}">
+                    <img src="${place.image}" alt="${place.name}" loading="lazy">
                     <h2>${place.name}</h2>
                     <address>${place.address}</address>
                     <p>${place.description}</p>
