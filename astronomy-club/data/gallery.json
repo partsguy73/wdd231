@@ -2,119 +2,148 @@
     "images": [
         {
             "name": "Pillars of Creation",
-            "image": "images/pillars-of-creation.webp"
+            "image": "images/pillars-of-creation.webp",
+            "description": "A famous image of the Eagle Nebula's Pillars of Creation, taken by the Hubble Space Telescope."
         },
         {
             "name": "Hubble Ultra Deep Field",
-            "image": "images/hubble-ultra-deep-field.webp"
+            "image": "images/hubble-deep-field.webp",
+            "description": "An image of a small region of space in the constellation Fornax, revealing thousands of galaxies."
         },
         {
             "name": "Andromeda Galaxy",
-            "image": "images/andromeda-galaxy.webp"
+            "image": "images/andromeda-galaxy.webp",
+            "description": "The nearest spiral galaxy to the Milky Way and the largest galaxy in the Local Group."
         },
         {
             "name": "Crab Nebula",
-            "image": "images/crab-nebula.webp"
+            "image": "images/crab-nebula.webp",
+            "description": "A supernova remnant in the constellation of Taurus, observed by Chinese astronomers in 1054."
         },
         {
             "name": "Helix Nebula",
-            "image": "images/helix-nebula.webp"
+            "image": "images/helix-nebula.webp",
+            "description": "A planetary nebula located in the constellation Aquarius, often called the 'Eye of God'."
         },
         {
             "name": "Whirlpool Galaxy",
-            "image": "images/whirlpool-galaxy.webp"
+            "image": "images/whirlpool-galaxy.webp",
+            "description": "A classic spiral galaxy located in the constellation Canes Venatici, interacting with a smaller galaxy."
         },
         {
             "name": "Sombrero Galaxy",
-            "image": "images/sombrero-galaxy.webp"
+            "image": "images/sombrero-galaxy.webp",
+            "description": "A spiral galaxy in the constellation Virgo, known for its bright nucleus and large central bulge."
         },
         {
             "name": "Pleiades Star Cluster",
-            "image": "images/pleiades.webp"
+            "image": "images/pleiades.webp",
+            "description": "An open star cluster containing middle-aged, hot B-type stars in the constellation Taurus."
         },
         {
             "name": "Orion Nebula",
-            "image": "images/orion-nebula.webp"
+            "image": "images/orion-nebula.webp",
+            "description": "A diffuse nebula situated in the Milky Way, being one of the brightest nebulae visible to the naked eye."
         },
         {
             "name": "Carina Nebula",
-            "image": "images/carina-nebula.webp"
+            "image": "images/carina-nebula.webp",
+            "description": "A large, complex area of bright and dark nebulosity in the constellation Carina."
         },
         {
             "name": "NGC 1300",
-            "image": "images/ngc-1300.webp"
+            "image": "images/ngc-1300.webp",
+            "description": "A barred spiral galaxy located in the constellation Eridanus."
         },
         {
             "name": "Horsehead Nebula",
-            "image": "images/horsehead-nebula.webp"
+            "image": "images/horsehead-nebula.webp",
+            "description": "A dark nebula in the constellation Orion, part of the Orion Molecular Cloud Complex."
         },
         {
             "name": "NGC 1672",
-            "image": "images/ngc-1672.webp"
+            "image": "images/ngc-1672.webp",
+            "description": "A barred spiral galaxy in the constellation Dorado."
         },
         {
             "name": "Messier 82",
-            "image": "images/messier82.webp"
+            "image": "images/messier82.webp",
+            "description": "A starburst galaxy approximately 12 million light-years away in the constellation Ursa Major."
         },
         {
             "name": "NGC 6302 (Butterfly Nebula)",
-            "image": "images/butterfly-nebula.webp"
+            "image": "images/butterfly-nebula.webp",
+            "description": "A bipolar planetary nebula in the constellation Scorpius."
         },
         {
             "name": "NGC 6217",
-            "image": "images/ngc-6217.webp"
+            "image": "images/ngc-6217.webp",
+            "description": "A barred spiral galaxy in the constellation Ursa Minor."
         },
         {
             "name": "Stephan's Quintet",
-            "image": "images/stephans-quintet.webp"
+            "image": "images/stephans-quintet.webp",
+            "description": "A visual grouping of five galaxies of which four form the first compact galaxy group ever discovered."
         },
         {
             "name": "NGC 1275 (M87)",
-            "image": "images/messier87.webp"
+            "image": "images/messier87.webp",
+            "description": "A supergiant elliptical galaxy in the constellation Virgo."
         },
         {
             "name": "NGC 5866",
-            "image": "images/ngc-5866.webp"
+            "image": "images/ngc-5866.webp",
+            "description": "A lenticular galaxy in the constellation Draco."
         },
         {
             "name": "Messier 106",
-            "image": "images/messier106.webp"
+            "image": "images/messier106.webp",
+            "description": "A spiral galaxy in the constellation Canes Venatici."
         },
         {
             "name": "Mercury",
-            "image": "images/mercury.webp"
+            "image": "images/mercury.webp",
+            "description": "The smallest planet in the Solar System and the closest to the Sun."
         },
         {
             "name": "Venus",
-            "image": "images/venus.webp"
+            "image": "images/venus.webp",
+            "description": "The second planet from the Sun, known for its thick, toxic atmosphere."
         },
         {
             "name": "Earth From Space",
-            "image": "images/earth.webp"
+            "image": "images/earth.webp",
+            "description": "An image of Earth taken from space, showing the beauty of our home planet."
         },
         {
             "name": "Mars",
-            "image": "images/mars.webp"
+            "image": "images/mars.webp",
+            "description": "The fourth planet from the Sun, known as the Red Planet."
         },
         {
             "name": "Jupiter",
-            "image": "images/jupiter.webp"
+            "image": "images/jupiter.webp",
+            "description": "The largest planet in the Solar System, known for its Great Red Spot."
         },
         {
             "name": "Saturn",
-            "image": "images/saturn.webp"
+            "image": "images/saturn.webp",
+            "description": "The sixth planet from the Sun, famous for its prominent ring system."
         },
         {
             "name": "Uranus",
-            "image": "images/uranus.webp"
+            "image": "images/uranus.webp",
+            "description": "The seventh planet from the Sun, known for its blue-green color and tilted axis."
         },
         {
             "name": "Neptune",
-            "image": "images/neptune.webp"
+            "image": "images/neptune.webp",
+            "description": "The eighth and farthest known planet from the Sun in the Solar System."
         },
         {
             "name": "We Still Love Pluto",
-            "image": "images/pluto.webp"
+            "image": "images/pluto.webp",
+            "description": "A dwarf planet in the Kuiper belt, known for its demotion from planet status."
         }
     ]
 }

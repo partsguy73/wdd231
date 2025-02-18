@@ -1,0 +1,36 @@
+.join-us-container {
+    padding: 2rem;
+    background-color: var(--primary-background);
+    color: var(--text);
+    border-radius: 8px;
+}
+
+#join-form {
+    display: flex;
+    flex-direction: column;
+}
+
+#join-form label {
+    margin-top: 1rem;
+}
+
+#join-form input, #join-form textarea {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid var(--secondary-background);
+}
+
+#join-form button {
+    margin-top: 1rem;
+    padding: 0.75rem;
+    background-color: var(--primary);
+    color: var(--text);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#join-form button:hover {
+    background-color: var(--accent);
+}

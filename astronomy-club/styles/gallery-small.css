@@ -1,0 +1,31 @@
+.image-card {
+    margin: 1rem 8px;
+    border: 2px solid var(--primary-background);
+    border-radius: 8px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas:
+        "name"
+        "image"
+        "description"
+}
+
+.image-card h2 {
+    margin: 1rem 10px;
+    grid-area: name;
+}
+
+.image-card img {
+    width: 100%;
+    grid-area: image;
+}
+
+.image-card p {
+    margin: 1rem 10px;
+    grid-area: description;
+}
+
+.gallery-container h1 {
+    text-align: center;
+}
