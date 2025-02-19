@@ -21,11 +21,17 @@ function displayMoonData(data) {
     const nightWeatherElement = document.getElementById('night-weather');
     if (nightWeatherElement) {
         var moonPhase = data.properties.data.curphase;
+        var moonData = data.properties.data.moondata;
+        var moonRiseData = moonData.filter(data => data.phen === "Rise");
+        var moonSetData = moonData.filter(data => data.phen === "Set");
+        var moonrise = moonRiseData.length > 0 ? moonRiseData[0].time : "N/A";
+        var moonSet = moonSetData.length > 0 ? moonSetData[0].time : "N/A";
+ 
         nightWeatherElement.innerHTML = `
             <h3>Moon Phase</h3>
             <p>${moonPhase}${phaseCodes[moonPhase]}</p>
-            <p>Moonrise: ${data.properties.data.moondata[2].time}</p>
-            <p>Moonset: ${data.properties.data.moondata[1].time}</p>
+            <p>Moonrise: ${moonrise}</p>
+            <p>Moonset: ${moonSet}</p>
         `;
     }
 }

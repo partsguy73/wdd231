@@ -1,7 +1,7 @@
 function toggleMenu() {
-    var navigation = document.getElementById("navigation");
+    var navigation = document.getElementById("nav-container");
     var cheeseburger = document.getElementById("cheeseburger");
-    var isShow = navigation.classList.toggle("show");
+    var isShow = navigation.classList.toggle("");
     if (isShow) {
         navigation.classList.remove("nav-hidden");
         cheeseburger.innerHTML = '✖';
