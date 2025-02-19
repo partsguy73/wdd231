@@ -67,3 +67,58 @@ Time: 10:00 PM - 12:00 AM
 Location: Sand Hollow State Park
 
 Highlight: Witnessing the Lyrid Meteor Shower.
+
+.events-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+ 
+.upcoming-events {
+    display: grid;
+    grid-template-areas: 'event-header event-header'
+                         'event-img event-description';
+   
+}
+ 
+.upcoming-events h3 {
+    grid-area: event-header;
+}
+ 
+.upcoming-events p {
+    grid-area: event-description;
+}
+ 
+.upcoming-events img {
+    grid-area: event-img;
+    align-self: center;
+}
+ 
+.night-weather {
+    min-width: 200px;
+    margin: 20px;
+}
+ 
+ 
+@media  only screen and (max-width: 1024px) {
+ 
+    .nominal-width {
+        padding: 20px;
+        /* margin: 0 auto; */
+    }
+ 
+}
+@media  only screen and (max-width: 768px) {
+    .events-container {
+        flex-direction: column;
+    }
+ 
+    .upcoming-events {
+        display: grid;
+        grid-template-areas: 'event-img'
+                             'event-header'
+                             'event-description';
+        grid-gap: 2px;
+       
+    }
+}

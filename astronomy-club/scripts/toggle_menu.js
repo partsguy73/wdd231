@@ -1,13 +1,10 @@
 function toggleMenu() {
     var navigation = document.getElementById("nav-container");
     var cheeseburger = document.getElementById("cheeseburger");
-    var isShow = navigation.classList.toggle("");
+    var isShow = navigation.classList.toggle("nav-hidden");
     if (isShow) {
-        navigation.classList.remove("nav-hidden");
         cheeseburger.innerHTML = '✖';
-    }
-    else {
-        navigation.classList.add("nav-hidden");
+    } else {
         cheeseburger.innerHTML = '&#9776;';
     }
 }

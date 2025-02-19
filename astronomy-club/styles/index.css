@@ -7,6 +7,11 @@
     height: 50vh;
 }
 
+h1 {
+    text-align: center;
+    padding: 1rem;
+}
+
 .join-button {
     margin: 4rem;
     transition: transform 0.2s;
@@ -18,3 +23,90 @@
     animation-iteration-count: infinite;
 }
 
+.welcome {
+    padding: 1rem;
+}
+
+.events-container {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.upcoming-events {
+    display: grid;
+    grid-template-areas: 
+        'event-header event-header'
+        'event-img event-description';
+    gap: 10px;
+
+}
+
+.upcoming-events h3 {
+    grid-area: event-header;
+}
+
+.upcoming-events p {
+    grid-area: event-description;
+    
+}
+
+.upcoming-events img {
+    grid-area: event-img;
+    align-self: center;
+}
+
+.night-weather {
+    min-width: 200px;
+    margin: 20px;
+}
+
+.sample-gallery-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   
+}
+ 
+.image-card {
+    display: grid;
+    grid-template-areas: 
+        'gallery-img'
+        'gallery-header'
+        'gallery-description';
+    grid-gap: 2px;
+    margin: 10px;
+}
+ 
+.image-card p {
+    grid-area: gallery-description;
+}
+ 
+.image-card h2 {
+    grid-area: gallery-header;
+}
+ S
+.image-card img {
+    grid-area: gallery-img;
+    align-self: center;
+}
+
+@media  only screen and (max-width: 768px) {
+    .events-container {
+        flex-direction: column;
+    }
+ 
+    .upcoming-events {
+        display: grid;
+        grid-template-areas: 
+            'event-img'
+            'event-header'
+            'event-description';
+        grid-gap: 2px;
+    }
+
+    .sample-gallery-container {
+        flex-direction: column;
+    }
+}
