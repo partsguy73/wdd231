@@ -55,7 +55,7 @@ h1 {
 
 }
 
-.upcoming-events h3 {
+.upcoming-events h2 {
     grid-area: event-header;
 }
 

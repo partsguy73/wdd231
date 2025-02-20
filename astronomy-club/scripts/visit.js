@@ -20,5 +20,5 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     personalizedMessage.innerHTML = `${message}`;
-    localStorage.setItem("currentVisit", currentVisit);
+    localStorage.setItem("lastVisit", currentVisit);
 });

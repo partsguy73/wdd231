@@ -122,3 +122,17 @@ Highlight: Witnessing the Lyrid Meteor Shower.
        
     }
 }
+
+function populateEvents(event) {
+    const eventsContainer = document.querySelector('.events-container');
+    const eventElement = document.createElement('div');
+    eventElement.classList.add('event');
+    eventElement.innerHTML = `
+                    <h3>${event.name}</h3>
+                    <p>Date: ${event.date}</p>
+                    <p>Time: ${event.time}</p>
+                    <p>Location: ${event.location}</p>
+                    <p>Agenda: ${event.agenda}</p>
+                `;
+    eventsContainer.appendChild(eventElement);
+}

@@ -21,21 +21,21 @@
         "date": "2025-02-20",
         "time": "20:00-22:00",
         "location": "Snow Canyon State Park",
-        "highlight": "Observing the Orion Nebula and the Pleiades cluster."
+        "agenda": "Observing the Orion Nebula and the Pleiades cluster."
       },
       {
         "name": "Spring Equinox Stargazing",
         "date": "2025-03-20",
         "time": "20:00-22:00",
         "location": "Pioneer Park",
-        "highlight": "Viewing the spring constellations and the planet Jupiter."
+        "agenda": "Viewing the spring constellations and the planet Jupiter."
       },
       {
         "name": "Meteor Shower Watch Party",
         "date": "2025-04-21",
         "time": "22:00-00:00",
         "location": "Sand Hollow State Park",
-        "highlight": "Witnessing the Lyrid Meteor Shower."
+        "agenda": "Witnessing the Lyrid Meteor Shower."
       }
     ]
   }
