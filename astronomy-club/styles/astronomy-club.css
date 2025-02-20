@@ -78,6 +78,15 @@ nav {
     display: none;
 }
 
+.thank-you-container {
+    padding: 1rem;
+}
+
+.thank-you-container ul {
+    list-style-type: none;
+    padding: 1rem;
+}
+
 footer {
     background-color: var(--secondary);
     color: var(--primary-background);

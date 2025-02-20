@@ -26,6 +26,8 @@
     grid-area: description;
 }
 
-.gallery-container h1 {
+.gallery-header {
     text-align: center;
 }
+
+

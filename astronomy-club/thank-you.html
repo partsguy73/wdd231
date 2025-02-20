@@ -9,21 +9,19 @@
     <meta property="og:title" content="Southern Utah Youth Astronomy Club">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://partsguy73.github.io/wdd231/astronomy-club/images/suyac-hero.webp">
-    <meta property="og:url" content="https://partsguy73.github.io/wdd231/astronomy-club/gallery.html">
-    <title>Southern Utah Youth Astronomy Club - Gallery</title>
+    <meta property="og:url" content="https://partsguy73.github.io/wdd231/astronomy-club/index.html">
+    <title>Southern Utah Youth Astronomy Club - Home</title>
     <link rel="icon" type="image/x-icon" href="images/suyac.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles/normalize.css">
     <link rel="stylesheet" href="styles/astronomy-club.css">
-    <link rel="stylesheet" href="styles/gallery-small.css">
-    <link rel="stylesheet" href="styles/gallery-medium.css">
-    <link rel="stylesheet" href="styles/gallery-large.css">
+    <link rel="stylesheet" href="styles/index.css">
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/toggle_menu.js" defer></script>
     <script src="scripts/visit.js" defer></script>
-    <script src="scripts/gallery.js" defer></script>
+    <script src="scripts/thankyou.js" defer></script>
 </head>
 
 <body>
@@ -36,7 +34,7 @@
         <div class="header-container nominal-width">
             <img src="images/suyac-logo.png" alt="Southern Utah Youth Astronomy Club Logo">
             <nav>
-                <div class="nav-container">
+                <div class="nav-container" id="nav-container">
                     <ul id="menu">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="events.html">Events</a></li>
@@ -50,15 +48,18 @@
         </div>
     </header>
     <main>
-        <h1 class="nominal-width gallery-header">Image Gallery</h1>
-        <div class="gallery-container nominal-width" id="gallery-container">
-            <!-- Gallery images will be dynamically inserted here -->
+        <div class="thank-you-container nominal-width">
+            <h1>Thank You!</h1>
+            <p>Here is the information you submitted:</p>
+            <ul id="response-list">
+                <!-- The form data will be displayed here -->
+            </ul>
         </div>
     </main>
     <footer>
         <div class="footer-container nominal-width">
             <div class="contact">
-                <h4>Southern Utah Youth Astronomy Club</h4>
+                <h3>Southern Utah Youth Astronomy Club</h3>
                 <hr>
                 <address>PO Box 3.14,</address>
                 <address>Washington, Ut 84780</address>
@@ -85,6 +86,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>
