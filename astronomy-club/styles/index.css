@@ -10,6 +10,7 @@
 h1 {
     text-align: center;
     padding: 1rem;
+    color: var(--text);
 }
 
 .join-button {
@@ -25,6 +26,11 @@ h1 {
 
 .welcome {
     padding: 1rem;
+    background-color: var(--primary-background);
+}
+
+.welcome p {
+    color: var(--text);
 }
 
 .events-container {
@@ -49,6 +55,7 @@ h1 {
 
 .upcoming-events p {
     grid-area: event-description;
+    max-width: 450px
     
 }
 
@@ -77,6 +84,7 @@ h1 {
         'gallery-description';
     grid-gap: 2px;
     margin: 10px;
+    max-width: 325px
 }
  
 .image-card p {

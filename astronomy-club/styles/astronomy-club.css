@@ -10,6 +10,7 @@
 
 body {
     font-family: "Poppins", sans-serif;
+    background-color: var(--accent);
 }
 
 .nominal-width {
@@ -35,7 +36,7 @@ header {
 }
 
 .header-container {
-    color: var(--text);
+    color: var(--primary-background);
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -49,12 +50,13 @@ nav {
 }
 
 .nav-container a {
-    color: var(--text);
+    color: var(--primary-background);
     text-decoration: none;
+    font-size: 125%;
 }
 
 .nav-container a:hover {
-    color: var(--primary-background);
+    color: var(--text);
     font-size: 150%;
 }
 
@@ -78,7 +80,7 @@ nav {
 
 footer {
     background-color: var(--secondary);
-    color: var(--text);
+    color: var(--primary-background);
     text-align: center;
     padding: 1rem 0;
 }
@@ -131,12 +133,12 @@ footer {
 }
 
 .legal a {
-    color: var(--text);
+    color: var(--primary-background);
     text-decoration: none;
 }
 
 .legal a:hover {
-    color: var(--primary-background);
+    color: var(--text);
     font-size: 150%;
 }
 
