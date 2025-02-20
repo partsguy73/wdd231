@@ -16,10 +16,11 @@ h1 {
 .join-button {
     margin: 4rem;
     transition: transform 0.2s;
+    font-size: 200%;
 }
 
 .join-button:hover {
-    font-size: 150%;
+    font-size: 250%;
     animation: shake 0.5s;
     animation-iteration-count: infinite;
 }
